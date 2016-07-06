@@ -11,7 +11,7 @@ source 'https://rubygems.org'
 ruby versions['ruby'] if ENV['CI']
 
 group :jekyll_plugins do
-  gem 'github-pages', versions['github-pages']
+  gem 'github-pages', 84
   gem 'algoliasearch-jekyll', '~> 0.7.0'
 end
 
